@@ -21,6 +21,6 @@ webpack-dev-server进行代码热替换这个酷炫功能,没想到这个dev-ser
 
 ### 开发工具
 
-1: gulp 
+1: gulp    
 2: webpack         
 3: browser-sync 
