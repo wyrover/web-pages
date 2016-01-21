@@ -1,25 +1,18 @@
 <template>
-    <header-component/>
-    <div>this is template body</div>
-    <other-component/>
+    <div class="tips">i am tips {{ tips }}</div>
 </template>
 <style>
-    body{
-        background-color:#ff0000;
+    .tips {
+        background-color: #0b97c4;
+        color: #fff;
     }
 </style>
-<script>
-    import HeaderComponent from './components/header.vue'
-    import OtherComponent from './components/other.vue'
-    export default{
-        data(){
-            return{
-                msg:'hello vue'
+<script type="text/babel">
+    export default {
+        data() {
+            return {
+                tips: 'tips too'
             }
-        },
-        components:{
-            'other-component':OtherComponent
-            HeaderComponent,
         }
     }
 </script>

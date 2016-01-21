@@ -1,5 +1,6 @@
 <style lang="sass">
     @import "../../sass/reset.scss";
+    @import "index.scss";
     .index {
         color: #0000AA;
     }

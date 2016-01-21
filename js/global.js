@@ -1,0 +1,1 @@
+window.Host={name:"hehe"},window.a=13;

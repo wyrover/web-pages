@@ -1,6 +1,7 @@
 import Vue from 'vue'
+import $ from 'jquery'
 import App from './Index.vue'
-import share from '../../module/share'
+import add from '../../module/module'
 
 new Vue({
   el: 'body',
@@ -9,4 +10,4 @@ new Vue({
   }
 })
 
-console.log(share(1, 3))
+console.log(add(1, 3))

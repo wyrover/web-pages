@@ -1,0 +1,3 @@
+window.Host = {
+  name: 'hehe'
+}
