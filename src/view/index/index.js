@@ -10,3 +10,8 @@ new Vue({
 })
 
 console.log(add(1, 3))
+
+require.ensure([], () => {
+  var a = require('../../module/async').default
+  console.log(a)
+}, 'async')

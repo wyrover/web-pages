@@ -1,6 +1,6 @@
 var gulp = require('gulp')
 var browserSync = require('browser-sync').create()
-var webpack = require('gulp-webpack')
+var webpack = require('webpack-stream')
 var realWebpack = require('webpack')
 var del = require('del')
 var sass = require('gulp-sass')

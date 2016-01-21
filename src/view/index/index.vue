@@ -11,6 +11,7 @@
         below is a component hello
         <hello></hello>
         <hello></hello>
+        <button @click="addAsync">click add async module</button>
     </div>
 </template>
 
@@ -22,6 +23,14 @@
         },
         components: {
             Hello
+        },
+        methods: {
+            addAsync: function () {
+                require.ensure([], () => {
+                    let a = require('../../module/async')
+                    this.msg = a.name()
+                }, 'async')
+            }
         }
     }
 </script>
