@@ -22,19 +22,19 @@
 ### 目录解析    
 
 
---app
-  --css           `打包出来的css`
-  --img           `图片等静态资源`
-  --js            `webpack打包出来的js`
-  --src           `工作目录`
-  --view          `页面文件`
-  --task.js       `要开发那个页面把页面文件写入`
+--app   
+  --css           `打包出来的css`    
+  --img           `图片等静态资源`   
+  --js            `webpack打包出来的js`    
+  --src           `工作目录`    
+  --view          `页面文件`    
+  --task.js       `要开发那个页面把页面文件写入`    
   
 ### 使用    
 
-1: `npm install`    
+1: `npm install`       
 
-// development
-2: `npm run dev`
-// production
-3: `npm run build`
+// development    
+2: `npm run dev`    
+// production   
+3: `npm run build`    
