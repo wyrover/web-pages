@@ -15,9 +15,9 @@ webpack-dev-server进行代码热替换这个酷炫功能,没想到这个dev-ser
 3: 使用sass (gulp || webpack) 
 4: 使用es6进行开发 (webpack)  
 5: 文件压缩 (gulp)  
-6: 小图自动base64,多个小图自动合并雪碧图(尽管很少用) (gulp) 
-7: 浏览器自动刷新 (browser-sync) 
-8: 页面文件加上md5戳 (gulp)  
+6: 小图自动base64,多个小图自动合并雪碧图(尽管很少用) (gulp)    
+7: 浏览器自动刷新 (browser-sync)    
+8: 页面文件加上md5戳 (gulp)      
 
 ### 开发工具
 
