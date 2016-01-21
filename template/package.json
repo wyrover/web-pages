@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "{{ description }}",
   "author": "{{ author }}",
-  {{#private}}
-  "private": true,
-  {{/private}}
   "scripts": {
     "dev": "gulp dev",
     "build": "gulp build"
