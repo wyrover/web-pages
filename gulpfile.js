@@ -35,7 +35,8 @@ var webpackConfig = {
   watch: true,
   entry: task,
   output: {
-    filename: '[name].js'
+    filename: '[name].js',
+    chunkFilename: '../js/[name].chunk.js'
   },
   resolve: {
     extensions: ['', '.js', '.vue']

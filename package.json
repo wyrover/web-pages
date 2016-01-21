@@ -1,8 +1,8 @@
 {
-  "name": "{{ name }}",
+  "name": "web-pages",
   "version": "0.0.1",
-  "description": "{{ description }}",
-  "author": "{{ author }}",
+  "description": "scaffhold for vue",
+  "author": "agileago",
   "scripts": {
     "dev": "gulp dev",
     "build": "gulp build"
