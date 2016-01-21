@@ -76,7 +76,7 @@ var webpackConfig = {
   ]
 }
 //  指定打包公共资源库
-webpackConfig.entry.vendor = ['vue', 'jquery']
+webpackConfig.entry.vendor = ['vue']
 
 gulp.task('webpack-dev', () => {
   return gulp.src(ENTRY_DIR + 'Index/index.js')
