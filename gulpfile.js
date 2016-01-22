@@ -103,7 +103,7 @@ gulp.task('webpack-prod', () => {
       }
     })
   ]
-  return gulp.src(ENTRY_DIR + 'Index/index.js')
+  return gulp.src(ENTRY_DIR + 'index/index.js')
     .pipe(webpack(webpackConfig))
     .pipe(gulp.dest('js/'))
 })

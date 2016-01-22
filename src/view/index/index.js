@@ -1,17 +1,6 @@
 import Vue from 'vue'
-import App from './Index.vue'
-import add from '../../module/module'
+import App from './index.vue'
 
-new Vue({
-  el: 'body',
-  components: {
-    App
-  }
-})
-
-console.log(add(1, 3))
-
-require.ensure([], () => {
-  var a = require('../../module/async').default
-  console.log(a)
-}, 'async')
+var AppCons = Vue.extend(App)
+var app = new AppCons
+app.$mount('#app')
